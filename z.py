@@ -69,6 +69,7 @@ while ln<len(cont):
     while cont[ln][ch] in ascii_letters:
       res+=cont[ln][ch]
       ch+=1
+    res=res.lower()
     if res=="print":
       write=True
       res=""
