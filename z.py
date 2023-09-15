@@ -44,7 +44,7 @@ while ln<len(cont):
         ln+=1
         ch=0
     ch+=1
-  elif cont[ln][ch]=="$":
+  elif cont[ln][ch]=="%":
     res=""
     ch+=1
     while cont[ln][ch] in ascii_letters:
