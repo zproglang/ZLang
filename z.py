@@ -114,5 +114,8 @@ while ln<len(cont):
       res=""
       ch=0
     else:
-      print("Unexpected token: `%s'" % res)
+      print("\nL:%d:Unexpected token: `%s'" % (ln,res))
       exit()
+  else:
+    print("\nL:%d:Unexpected token: `%s'" % (ln,cont[ln][ch]))
+    exit()
