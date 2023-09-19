@@ -34,16 +34,6 @@ while ln<len(cont):
       ch+=1
     ln+=1
     ch=0
-  elif cont[ln][ch]=="/":
-    if write:
-      write=False
-      print()
-    while cont[ln][ch]!="\\":
-      ch+=1
-      if cont[ln][ch]=="\n":
-        ln+=1
-        ch=0
-    ch+=1
   elif cont[ln][ch]=="%":
     res=""
     ch+=1
